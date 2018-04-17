@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400,700");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 340px;
+  margin: 0 auto;
+}
+
+.counter {
+  height: 40px;
+  background-color: rgba(187, 185, 185, 0.5);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 10px;
+  box-shadow: 2px 2px 2px #a19c9c;
+}
+
+.result {
+  width: 80px;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  text-shadow: 2px 2px #ffffff;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  outline: none;
+  font-weight: 600;
+  box-shadow: 2px 2px 2px #a19c9c;
+}
+
+.btn-reset {
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  height: 30px;
+  background-color: #ff0000;
+}
+
+.increment {
+  background-color: #78d678;
+  font-size: 1rem;
+}
+
+.decrement {
+  background-color: #f87171;
+  font-size: 1rem;
+}
